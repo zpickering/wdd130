@@ -1,0 +1,12 @@
+#banner{
+    width: 100%;
+    height: 1500px;
+    background-image: url('../images/missionpic.jpeg');
+    background-repeat: no-repeat;
+}
+.footer-box{
+    width:150px;
+}
+#footer-one, .card h2, #banner{
+    color: orange
+}
