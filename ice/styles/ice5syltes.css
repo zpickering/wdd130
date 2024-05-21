@@ -1,0 +1,21 @@
+#bubbles{
+    width: 100%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    gap: 75px;
+    border: 0px;
+}
+.card img{
+    display: inline-block;
+    object-fit: cover;
+    height: auto;
+    width: 20%;
+    border-radius: 50%;
+    border: 15px solid hsl(0, 3%, 25%);
+}
+.bod{
+    margin: 0 0;
+    background-color: grey;
+}
