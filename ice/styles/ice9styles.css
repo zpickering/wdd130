@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    justify-content: center;
+}
+
+
+#divide{
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr 100px 1fr 100px;
+    justify-content: center;
+    align-self: center;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.building{
+    width: 100%;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    justify-self: center;
+}
+
+h4{
+    align-self: start;
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+h1{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    align-self: end;
+    text-align: center;
+}
+h3{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    color: grey;
+    text-align: center;
+}
+/* *{
+    border: 5px solid red;
+} */
