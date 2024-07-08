@@ -1,6 +1,12 @@
 
-
-
+.heads{
+    color: white;
+    text-align: center;
+}
+.randomtext{
+    color: white;
+    text-align: center;
+}
 .content{
     max-width: 1600px;
     margin: 0 auto;
@@ -105,6 +111,12 @@ footer .social img{
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em;
     margin-top: 10px;
+}
+.home-title2{
+    color: white;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 100px;
 }
 .home-grid{
     display: grid;
